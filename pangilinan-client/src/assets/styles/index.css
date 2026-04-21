@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
